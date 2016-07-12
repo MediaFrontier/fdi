@@ -1,0 +1,12 @@
+diff --git a/webform_service.module b/webform_service.module
+index ac423e5..95471f6 100644
+--- a/webform_service.module
++++ b/webform_service.module
+@@ -138,6 +138,7 @@ function webform_service_get_components($webform) {
+       'form_key' => $component['form_key'],
+       'name' => $component['name'],
+       'type' => $component['type'],
++      'extra' => $component['extra'],
+     );
+     if (isset($component['extra']['items'])){
+       $allowed = array();
