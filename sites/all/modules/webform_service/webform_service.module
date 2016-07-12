@@ -138,6 +138,7 @@ function webform_service_get_components($webform) {
       'form_key' => $component['form_key'],
       'name' => $component['name'],
       'type' => $component['type'],
+      'extra' => $component['extra'],
     );
   }
   return $components;
